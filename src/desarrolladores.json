@@ -1,0 +1,33 @@
+{
+    "desarrolladores":[
+    {
+        
+    "nombre": "Ezequiel Alejandro Garcia" ,
+    "dni": "DNI: 41.401.187",
+    "lu": "lu1"
+    },
+    {
+     
+        "nombre": "Carolina Maria de los Angeles Cortez" ,
+        "dni": "DNI: 44.812.374",
+        "lu": "LU: TUV000415"
+        },
+        { 
+            
+            "nombre": "Héctor Ivan Diaz" ,
+            "dni": "DNI: 37.304.786",
+            "lu":"LU: TUV000440"
+            },
+            {
+                "nombre": "Hernan Enrique Arias Mercado",
+                "dni": "DNI: 36.225.750",
+                "lu": "LU: TUV000004"
+                },
+                {
+                  
+                    "nombre": "Valeria Emilia Caballero" ,
+                    "dni": "DNI: 43.139.319",
+                    "lu": "LU: TUV000055"
+                    }
+    ]
+    }
