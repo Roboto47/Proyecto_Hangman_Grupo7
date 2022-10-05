@@ -2,6 +2,7 @@
 
 import Desarrolladores from './Desarrolladores';
 import Home from './Home';
+import desarrolladores from './desarrolladores.json'
 
 
 
