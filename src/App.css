@@ -41,6 +41,7 @@ body
   background-color: rgb(230, 240, 238);
   border-radius: 5%;
   justify-content: center;
+
 }
 
 
@@ -109,6 +110,10 @@ body
      margin-top: 11%;
      gap: 164px;
      justify-content: center;
+   
+     float: left;
+     width: 30%;
+     height: auto;
     }
 
 

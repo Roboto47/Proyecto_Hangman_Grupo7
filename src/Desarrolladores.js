@@ -23,7 +23,7 @@ render (){
 
 return  <div>
 
-  <section className="icono">
+ {/*  <section className="icono">
 
   <img  src={mate} alt="" width="70" />
   <img  src={loguito} alt="" width="300" />
@@ -33,27 +33,29 @@ return  <div>
   <section className="logo">
     <img  src={logo} alt="" width="400" height={150}/>
     <img  src={soga} alt="" width="45" />
-  </section>
+  </section> */}
 
         <div className="seccion1">
-
+{/* 
               <section className="informacion"> 
                  <img  src={ivan} alt="" width="150"/>
                  <h3> <strong> Diaz Hector Ivan</strong></h3>
                  <h2> <strong> Programador</strong> </h2>
                  <p> <strong> DNI:37304786 </strong></p>
                  <p> <strong>LU:37304786 </strong> </p>
-              </section>
+              </section> */}
+
 
           <section className="informacion"> 
             <img  src={eze} width="150"/>
-              <h3> <strong> Ezequiel Alejandro Garcia</strong> </h3>
+              <h3> <strong> {this.props.nombre}</strong> </h3>
               <h2> <strong> Programador   </strong>  </h2>
-              <p><strong> DNI:41401187</strong> </p>
-              <p><strong> LU:TUV000415 </strong> </p>
+              <p><strong> {this.props.dni}</strong> </p>
+              <p><strong> {this.props.lu} </strong> </p>
           </section>
 
-            <section className="informacion"> 
+
+            {/* <section className="informacion"> 
                < img  src={caro} width="150"/>
               <h3> <strong>  Carolina Maria de los Angeles Cortez </strong> </h3>
               <h2> <strong> Programadora </strong>   </h2>
@@ -76,9 +78,9 @@ return  <div>
                <h2> <strong> Programadora   </strong></h2>
                <p><strong> DNI:37304786 </strong> </p>
                <p><strong> LU:37304786</strong>  </p>
-            </section>
+            </section> */}
       </div>
-            <div className='contenedorboton'>
+           {/*  <div className='contenedorboton'>
             <a href="/">  <button class="boton " >  <span>Volver</span>   </button>  </a>   
             </div>
 
@@ -93,7 +95,7 @@ return  <div>
            <h4> © 2022 Mate Cebado Inc. | All rights reserved.  </h4>
            <img  src={mate} width={43}/>
         </section>
-        
+         */}
         
 </div>
     
