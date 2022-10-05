@@ -1,0 +1,78 @@
+{
+    "palabras":[
+    {
+        
+        "palabra":"diseño",
+   "letras":["d","i","s","e","ñ","o"],
+   "pista":"El Proceso de Concebir y Especificar en detalle como tiene que ser el funcionamiento de un Videojuego"
+
+    },
+    {
+     "palabra":"GDD",
+     "letras":["G","D","D"],
+     "pista":"documento (o un conjunto de documentos) que describe todos los detalles del diseño de un videojuego."
+        
+
+        },
+        { 
+            "palabra":"PEGI",
+            "letras":["P","E","G","I"],
+            "pista":"Sistema de clasificación de videojuegos por edad respaldado por la mayoría de los países de Europa"
+           
+
+            },
+            {
+                "palabra":"CERO",
+                "letras":["C","E","R","O"],
+                "pista":"Sistema de clasificacion de videojuegos por edad respaldado por japón"
+
+                },
+                {
+                  "palabra":"ESRB",
+                  "letras":["E","S","R","B"],
+                    "pista":"Sistema de clasificación de videojuegos por edad respaldado por EEUU, Canadá y algunos países de Lainoamerica"
+                   
+                    },{
+                        "palabra":"Game Engine",
+                        "letras":["G","A","M","E"," ","E","N","G","I","N","E"],
+                        "pista":" framework o conjunto de herramientas que ayudan a agilizar el proceso de desarrollo de un videojuego"
+                    },{
+                        "palabra":"Atari",
+                        "letras":["A","T","A","R","I"],
+                        "pista":"Empresa que lanzó en 1974 una consola doméstica para jugar pong"
+                    },{
+
+                        "palabra":"William Higginbotham",
+                        "letras":["W","I","L","L","I","A","M"," ","H","I","G","G","I","N","B","O","T","H","A","M"],
+                        "pista":"Creador de tennis para dos (Tennis for two)"
+                    },{
+                        "palabra":"Ralph Baer",
+                        "letras":["R","A","L","P","H"," ","B","A","E","R"],
+                        "pista":"Nombre del padre de los videojuegos"
+                    },{
+                        "palabra":"Family Computer",
+                        "letras":["F","A","M","I","L","Y","","C","O","M","P","U","T","E","R"],
+                        "pista":"Consola lanzada por Nintendo que revivió la industria de los videojuegos en 1983"
+                    },{
+                        "palabra":"PAC-MAN",
+                        "letras":["P","A","C","","M","A","N"],
+                        "pista": "Juego famoso lanzado por Namco en 1980"
+                    },{
+                        "palabra":"Playstation",
+                        "letras":["P","L","A","Y","S","T","A","T","I","O","N"],
+                        "pista":"Primera consola lanzada con soporte para CD, lanzada por Sony"
+                    },{
+                        "palabra":"Indie",
+                        "letras":["I","N","D","I","E"],
+                        "pista":"Nombre que se le da a los juegos desarrollados por individuos o equipos pequeños, habitualmente con poco o ningún presupuesto"
+                    },{
+                        "palabra":"Game Jam",
+                        "letras":["G","A","M","E","","J","A","M"],
+                        "pista":"encuentro de desarrolladores que tiene como propósito la creación de uno o más videojuegos en un corto período de tiempo"
+                    },{
+                        "palabra":"Aventura",
+                        "letras":["A","V","E","N","T","U","R","A","S"],
+                        "pista":"juegos en los que se deben realizar diversas acciones a medida que se desarrolla el discurso narrativo hasta alcanzar un objetivo final"
+                    }
+    ]
+    }
