@@ -9,9 +9,9 @@ import { render } from "@testing-library/react";
 
 function headerDesarrolladores() {
 
-    render(
+    render()
 
-    
+    return(
 <header>
         <section className="icono">
 
@@ -27,7 +27,7 @@ function headerDesarrolladores() {
 
         </header>
     )
-    }
 
+}
 
 export default headerDesarrolladores;
