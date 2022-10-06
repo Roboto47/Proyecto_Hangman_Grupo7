@@ -80,7 +80,16 @@ class Hangman extends React.Component{
 
 
         return <div>
-           
+            <section className="icono">
+            <img  src={mate} alt="" width="70" />
+            <img  src={loguito} alt="" width="300" />
+
+          </section>
+            <section className="logo">
+            <img  src={logo} alt="" width="400" height={150}/>
+            <img  src={soga} alt="" width="45" />
+          </section>
+
           <section className="CantErrores"><strong>Adivinanzas erróneas: {this.state.mistake} of {this.props.maxWrong}</strong> 
           </section>
 
