@@ -5,8 +5,7 @@ import Home from './Home';
 import desarrolladores from './desarrolladores.json'
 import headerDesarrolladores from './headerDesarrolladores';
 import footerDesarrolladores from './footerDesarrolladores';
-
-
+import JuegoAhorcadito from './JuegoAhorcadito';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
   
   return (
   
-<BrowserRouter>
+/*<BrowserRouter>
 
 
    <Routes>
@@ -50,14 +49,10 @@ function App() {
 
 
 
-</BrowserRouter>
+</BrowserRouter>*/
+<JuegoAhorcadito/>
 
-
-
-
-   
-
-  );
+);
 }
 
 export default App;

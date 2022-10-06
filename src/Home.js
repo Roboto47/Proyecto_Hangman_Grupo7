@@ -5,6 +5,7 @@ import soga from './asset/imagenes/soga.png';
 import jugar from './asset/imagenes/jugar.png';
 import mate from './asset/imagenes/mate.png';
 import loguito from './asset/imagenes/loguito.png';
+import { Link } from "react-router-dom";
 class Home extends React.Component{
 
 
