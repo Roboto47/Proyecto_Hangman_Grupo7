@@ -1,6 +1,6 @@
 
 import React from "react";
-import './App.css';
+import './componentes/App.css';
 import logo from './asset/imagenes/logo.png';
 import soga from './asset/imagenes/soga.png';
 import mate from './asset/imagenes/mate.png';

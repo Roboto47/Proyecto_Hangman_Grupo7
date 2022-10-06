@@ -1,6 +1,6 @@
 
 import React from "react";
-import './App.css';
+import './componentes/App.css';
 import avatar from './asset/imagenes/Avatar.png';
 import ivan from './asset/imagenes/ivan.jpeg';
 import eze from './asset/imagenes/eze.jpeg';

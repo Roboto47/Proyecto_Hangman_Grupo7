@@ -1,5 +1,5 @@
 import React from "react";
-import './Home.css';
+import './componentes/Home.css';
 import logo from './asset/imagenes/logo.png';
 import soga from './asset/imagenes/soga.png';
 import jugar from './asset/imagenes/jugar.png';

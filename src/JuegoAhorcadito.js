@@ -16,7 +16,7 @@ function JuegoAhorcadito(){
             <button key={index} onClick={() => {
                 if (word.includes(letra)) {
                     setCorrectGuesses([...correctGuesses, letra])
-                }
+                } 
             }}>{letra}</button>)}
             {!maskedWord.includes("_") && <p>¡Felicidades! Has ganado</p>}
         </div>

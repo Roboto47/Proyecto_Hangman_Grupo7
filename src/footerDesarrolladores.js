@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+import './componentes/App.css';
 import twitter from './asset/imagenes/twitter.png';
 import face from './asset/imagenes/face.png';
 import discord from './asset/imagenes/discord.png';
