@@ -1,6 +1,7 @@
 
 
 import Desarrolladores from './Desarrolladores';
+import Hangman from './Hangman';
 import Home from './Home';
 
 
@@ -19,6 +20,8 @@ function App() {
    <Route path='/' element={ <Home/>   }/>
   
   <Route path='/desarrolladores' element={    <Desarrolladores/>     }/>
+  <Route path='/hangman' element={    <Hangman/>     }/>
+
 
   
 
