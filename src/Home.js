@@ -25,7 +25,7 @@ function Home(){
     
         <div className='contenedorbotonhomes'>
                 <button class="botoneshome " >  <span>JUGAR</span>   </button>  
-                <button class="botoneshome " >  <span><BtnD/></span>   </button>
+                <BtnD/>
                 </div>
         </section>
       
