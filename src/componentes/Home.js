@@ -1,5 +1,5 @@
 import React from "react";
-import './css/Style.css'
+import './css/style.css'
 import logo from './img/logo.png'
 import Btn from "./Btn";
 import mate from './img/mate.png';
@@ -11,7 +11,7 @@ import sogaLogo from './img/sogaLogo.png'
 
 
 
-  function Homes (props){
+  function Home (props){
 
 
 
@@ -55,4 +55,4 @@ import sogaLogo from './img/sogaLogo.png'
         
     )
 }
-export default Homes;
+export default Home;

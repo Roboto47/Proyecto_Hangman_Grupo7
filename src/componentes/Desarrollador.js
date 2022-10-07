@@ -1,6 +1,6 @@
 import React from "react";
-
-import './css/Style.css'
+import BtnV from "./BtnV.js";
+import './css/style.css'
 import ivan from './img/desarrolladores/ivan.jpeg'
 import eze from './img/desarrolladores/eze.jpeg'
 import caro from './img/desarrolladores/caro.jpeg'
@@ -13,6 +13,8 @@ import face from './img/face.png'
 import twitter from './img/twitter.png'
 import discord from './img/discord.png'
 import sogaLogo from './img/sogaLogo.png'
+
+
 
 
 
@@ -77,29 +79,42 @@ import sogaLogo from './img/sogaLogo.png'
                  
                  <p><strong> LU:37304786</strong>  </p>
               </section>
+
+
+
+
         </div>
 
 
         <div>
 
 
-            <v/>
+              <div >
+
+                    <BtnV/>
+
+               </div>
+         
 
         </div>
 
 
+          
         <div className="redes">
-        <img  src={twitter} alt="" width={100} height={80}/>
-        <img  src={face} alt="" width={100} height={80}/>
-        <img  src={discord} alt="" width={100} height={80} />
+              <img  src={twitter} alt="" width={100} height={80}/>
+              <img  src={face} alt="" width={100} height={80}/>
+              <img  src={discord} alt="" width={100} height={80} />
 
       </div>
+
+
       <section className="derechos">
 
-<h4> © 2022 Mate Cebado Games Inc. | All rights reserved. </h4>
+         <h4> © 2022 Mate Cebado Games Inc. | All rights reserved. </h4>
                         
-<img  src={mate} alt="error" width={43}/>
-</section>
+        <img  src={mate} alt="error" width={43}/>
+
+      </section>
 
 
 

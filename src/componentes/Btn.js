@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './css/Style.css'
+import './css/style.css'
+
+
 export default function Btn(){
   return (
     <section className='contenedorbotonhomes'>
@@ -10,11 +12,15 @@ export default function Btn(){
     <CustomLink to="/juego">Jugar</CustomLink>
     </button>
   
-  
-    <button className='botoneshome'>
-    <CustomLink to="/desarrolladores">Equipo</CustomLink>
+   
+      
+    <button className='botoneshome' >
+    <CustomLink to="/desarrolladores"> Equipo  </CustomLink>
     </button>
-
+   
+    
+    
+  
     </section>
   )
 }
