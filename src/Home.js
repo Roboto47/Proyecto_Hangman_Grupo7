@@ -1,10 +1,9 @@
 import React from "react";
 import './componentes/Home.css';
-import logo from './asset/imagenes/logo.png';
-import soga from './asset/imagenes/soga.png';
-import jugar from './asset/imagenes/jugar.png';
-import mate from './asset/imagenes/mate.png';
-import loguito from './asset/imagenes/loguito.png';
+import logo from './componentes/img/logo.png';
+import soga from './componentes/img/sogaLogo.png';
+import mate from './componentes/img/mate.png';
+import loguito from './componentes/img/loguito.png';
 import BtnD from "./componentes/BtnD";
 
 function Home(){

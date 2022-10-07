@@ -1,4 +1,3 @@
-
 body
 {
 
@@ -34,9 +33,9 @@ body
   padding: 3%;
   font-size: 19;
   color: rgb(10, 10, 10);
-  height: 600px;
-  width: 300px;
-  text-align: center;
+  height: 370px;
+  width: 190px;
+  text-align: left;
   box-shadow: 0 4px 24px 0 rgb(223, 208, 9);
   background-color: rgb(230, 240, 238);
   border-radius: 5%;
@@ -45,11 +44,7 @@ body
 }
 
 
-.foto{
-  border-radius: 50%;
-  height:200px;
-  width:200px;
-}
+
 
 
   .redes
@@ -112,7 +107,7 @@ body
     {
      display: flex;
      margin-top: 11%;
-     gap: 165px;
+     gap: 164px;
      justify-content: center;
    
      float: left;
@@ -249,36 +244,9 @@ margin-left: 36%;
     margin-top: -27%;
     margin-left: 0.2%;
 
-  }
 
-<<<<<<<< HEAD:src/componentes/css/Style.css
-  /* ------------- */
-
-  .CantErrores{
-    display: flex-end;
-    font-size: 20px;
-    margin-left: 80%;
-    margin-top: 35px;
-    height: 100px;
-  }
-
-  .Ahorcado{
-    display: flex;
-    justify-content: center;
-  }
-
-  .TextPresentacion{ 
-    font-size: 20px;
-    margin-left: 1%;
-  }
-
-  .btn{
-    justify-content: center;
-    font-size: 30px;
-========
   }
 
   .white{
     color: #fff;
->>>>>>>> Carolina_Cortez:src/componentes/App.css
   }

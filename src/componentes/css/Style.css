@@ -251,9 +251,6 @@ margin-left: 36%;
 
   }
 
-<<<<<<<< HEAD:src/componentes/css/Style.css
-  /* ------------- */
-
   .CantErrores{
     display: flex-end;
     font-size: 20px;
@@ -275,10 +272,8 @@ margin-left: 36%;
   .btn{
     justify-content: center;
     font-size: 30px;
-========
   }
 
   .white{
     color: #fff;
->>>>>>>> Carolina_Cortez:src/componentes/App.css
   }
