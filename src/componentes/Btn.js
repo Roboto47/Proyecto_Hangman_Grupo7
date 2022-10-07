@@ -15,7 +15,7 @@ export default function Btn(){
    
       
     <button className='botoneshome' >
-    <CustomLink to="/desarrolladores"> Equipo  </CustomLink>
+    <CustomLink to="/desarrolladores">Equipo</CustomLink>
     </button>
    
     
