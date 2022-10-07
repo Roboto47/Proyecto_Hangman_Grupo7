@@ -1,0 +1,37 @@
+[
+    {
+        "image": "./imagenes/eze.jpeg",
+        "nombre": "Ezequiel Alejandro Garcia" ,
+        "dni": "DNI: 41.401.187",
+        "intereses":"Intereses: Leer libros de fantasía erotica, vídeo juegos tipo RPG y ver películas.",
+        "lu": "LU: TUV000390"    
+    },
+    {
+        "image": "eze.png",
+        "nombre": "Carolina Maria de los Angeles Cortez" ,
+        "dni": "DNI: 44.812.374",
+        "intereses":"Intereses:",
+        "lu": "LU: TUV000415"
+    },
+    {
+        "image": "eze.png",
+        "nombre": "Héctor Ivan Diaz" ,
+        "dni": "DNI: 37.304.786",
+        "intereses":"Intereses: Mirar películas, viciar",
+        "lu":"LU: TUV000440"
+    },
+    {
+        "image": "eze.png",
+        "nombre": "Hernan Enrique Arias Mercado",
+        "dni": "DNI: 36.225.750",
+        "intereses":"Intereses: Escribir historias, videojuegos,peliculas y  musica: rock, metal, instrumental y que otra banda de otros generos musicales.",
+        "lu": "LU: TUV000004"
+    },
+    {
+        "image": "eze.png",
+        "nombre": "Valeria Emilia Caballero" ,
+        "dni": "DNI: 43.139.319",
+        "intereses":"Intereses:",
+        "lu": "LU: TUV000055"
+    }
+]

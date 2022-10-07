@@ -11,7 +11,7 @@ import sogaLogo from './img/sogaLogo.png'
 
 
 
-  function Home (props){
+  function Home (){
 
 
 
