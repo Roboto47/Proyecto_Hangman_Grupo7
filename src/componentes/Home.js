@@ -4,6 +4,7 @@ import logo from '../asset/imagenes/logo.png';
 import soga from '../asset/imagenes/soga.png';
 import jugar from '../asset/imagenes/jugar.png';
 import mate from '../asset/imagenes/mate.png';
+import Boton from './BotonHome.js';
 import loguito from '../asset/imagenes/loguito.png';
 class Home extends React.Component{
 
