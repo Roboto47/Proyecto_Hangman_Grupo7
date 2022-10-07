@@ -46,7 +46,7 @@ return  <div>
 
 
           <section className="informacion"> 
-            <img alt="imagen" src={this.props.img} width="150"/>
+            <img className="foto" alt="imagen" src={this.props.img} width="150"/>
               <h3> <strong> {this.props.nombre}</strong> </h3>
               <h2> <strong> Programador   </strong>  </h2>
               <p><strong>  {this.props.dni}</strong> </p>
