@@ -1,7 +1,7 @@
 {
     "desarrolladores":[
     {
-        "img":"",
+        "img":"./Garcis Foto.jpeg",
     "nombre": "Ezequiel Alejandro Garcia" ,
     "dni": "DNI: 41.401.187",
     "lu": "lu1",
@@ -20,7 +20,7 @@
         "intereses":""
         },
         { 
-            "img":"",
+            "img":"./Ivan Foto.jpeg",
             "nombre": "Héctor Ivan Diaz" ,
             "dni": "DNI: 37.304.786",
             "lu":"LU: TUV000440",
@@ -29,7 +29,7 @@
             "intereses":"Mirar películas y viciar"
             },
             {
-                "img":"",
+                "img":"./asset/Henry Foto.jpeg",
                 "nombre": "Hernan Enrique Arias Mercado",
                 "dni": "DNI: 36.225.750",
                 "lu": "LU: TUV000004",
@@ -38,13 +38,13 @@
                 "intereses":"Escribir historias, jugar videojuegos, ver películas y escuchar música de genero rock, metal, instrumental y alguna que otra banda de algún otro genero"
                 },
                 {
-                    "img":"",
+                    "img":"./ValeFoto.jpeg",
                     "nombre": "Valeria Emilia Caballero" ,
                     "dni": "DNI: 43.139.319",
                     "lu": "LU: TUV000055",
                     "gitLink":"https://github.com/ValeriaEmilia000",
                     "edad":"22",
-                    "intereses":"Jugar videojuegos diversos, escribir mundos, aprender cosas nuevas, personajes e historias y dibujar mientras escucho música de fondo. "
+                    "intereses":"Jugar videojuegos diversos, escribir mundos, personajes e historias , aprender cosas nuevas y dibujar mientras escucho música de fondo. "
                     }
     ]
     }

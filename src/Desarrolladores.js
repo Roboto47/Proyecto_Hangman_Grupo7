@@ -2,10 +2,9 @@
 import React from "react";
 import './App.css';
 import avatar from './asset/imagenes/Avatar.png';
-import ivan from './asset/imagenes/ivan.jpeg';
-import eze from './asset/imagenes/eze.jpeg';
+
 import caro from './asset/imagenes/caro.jpeg';
-import henry from './asset/imagenes/henry.jpeg';
+
 import vale from './asset/imagenes/vale.jpeg';
 import twitter from './asset/imagenes/twitter.png';
 import face from './asset/imagenes/face.png';
@@ -47,11 +46,14 @@ return  <div>
 
 
           <section className="informacion"> 
-            <img  src={eze} width="150"/>
+            <img  src={this.props.img} width="150"/>
               <h3> <strong> {this.props.nombre}</strong> </h3>
               <h2> <strong> Programador   </strong>  </h2>
               <p><strong> {this.props.dni}</strong> </p>
               <p><strong> {this.props.lu} </strong> </p>
+              <p><strong> {this.props.gitLink} </strong> </p>
+              <p><strong> {this.props.edad} </strong> </p>
+              <p><strong> {this.props.intereses} </strong> </p>
           </section>
 
 
