@@ -12,7 +12,8 @@ import step3 from "./asset/imagenes/3.png";
 import step4 from "./asset/imagenes/4.png";
 import step5 from "./asset/imagenes/5.png";
 import step6 from "./asset/imagenes/6.png";
-import { randomWord } from "./components/Word";
+import Proceso  from "./componentes/Proceso.js";
+
 
 
 
@@ -27,7 +28,7 @@ class Hangman extends React.Component{
     this.state = {
       mistake: 0,
       guessed: new Set([]),
-      answer: randomWord()
+      answer: Proceso()
     }
   }
 
@@ -61,7 +62,7 @@ class Hangman extends React.Component{
     this.setState({
       mistake: 0,
       guessed: new Set([]),
-      answer: randomWord()
+      answer: Proceso()
     });
   }
 
