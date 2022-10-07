@@ -46,14 +46,14 @@ return  <div>
 
 
           <section className="informacion"> 
-            <img  src={this.props.img} width="150"/>
+            <img alt="imagen" src={this.props.img} width="150"/>
               <h3> <strong> {this.props.nombre}</strong> </h3>
               <h2> <strong> Programador   </strong>  </h2>
-              <p><strong> {this.props.dni}</strong> </p>
-              <p><strong> {this.props.lu} </strong> </p>
-              <p><strong> {this.props.gitLink} </strong> </p>
-              <p><strong> {this.props.edad} </strong> </p>
-              <p><strong> {this.props.intereses} </strong> </p>
+              <p><strong>  {this.props.dni}</strong> </p>
+              <p><strong>  {this.props.lu} </strong> </p>
+              <p><strong> Usuario de Github: {this.props.gitLink} </strong> </p>
+              <p><strong> Edad: {this.props.edad} </strong> </p>
+              <p><strong> Intereses: {this.props.intereses} </strong> </p>
           </section>
 
 

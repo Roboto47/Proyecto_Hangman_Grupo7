@@ -1,7 +1,7 @@
 {
     "desarrolladores":[
     {
-        "img":"./Garcis Foto.jpeg",
+        "img":"./asset/GarcisFoto.png",
     "nombre": "Ezequiel Alejandro Garcia" ,
     "dni": "DNI: 41.401.187",
     "lu": "lu1",
@@ -20,7 +20,7 @@
         "intereses":""
         },
         { 
-            "img":"./Ivan Foto.jpeg",
+            "img":"./IvanFoto.png",
             "nombre": "Héctor Ivan Diaz" ,
             "dni": "DNI: 37.304.786",
             "lu":"LU: TUV000440",
@@ -29,7 +29,7 @@
             "intereses":"Mirar películas y viciar"
             },
             {
-                "img":"./asset/Henry Foto.jpeg",
+                "img":"./imagenes/HenryFoto.png",
                 "nombre": "Hernan Enrique Arias Mercado",
                 "dni": "DNI: 36.225.750",
                 "lu": "LU: TUV000004",
@@ -38,7 +38,7 @@
                 "intereses":"Escribir historias, jugar videojuegos, ver películas y escuchar música de genero rock, metal, instrumental y alguna que otra banda de algún otro genero"
                 },
                 {
-                    "img":"./ValeFoto.jpeg",
+                    "img":"./ValeFoto.png",
                     "nombre": "Valeria Emilia Caballero" ,
                     "dni": "DNI: 43.139.319",
                     "lu": "LU: TUV000055",

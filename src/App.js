@@ -26,14 +26,16 @@ function App() {
 {//desarrolladores && desarrolladores.map es para comprobar si los datos existen
   desarrolladores.desarrolladores && desarrolladores.desarrolladores.map( des =>   
     <Desarrolladores style="display:inline-block;" key={des.nombre}
-    img={des.img}  
+    img={des.img} 
     nombre={des.nombre}
     dni={des.dni}
     lu={des.lu}
     gitLink={des.gitLink}
     edad={des.edad}
     intereses={des.intereses}
-    ></Desarrolladores>  
+    >
+    
+    </Desarrolladores>  
       )
     }
 
