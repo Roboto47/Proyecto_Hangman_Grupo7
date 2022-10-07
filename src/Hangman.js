@@ -44,7 +44,7 @@ class Hangman extends React.Component{
   }
 
   generateButtons() {
-    return "abcdefghjklmnopqrstuvwxyz".split("").map(letter => (
+    return "abcdefghijklmnopqrstuvwxyz".split("").map(letter => (
       <button
         class='btn btn-lg btn-primary m-2'
         key={letter}
@@ -93,20 +93,20 @@ class Hangman extends React.Component{
           <section className="CantErrores"><strong>Adivinanzas erróneas: {this.state.mistake} of {this.props.maxWrong}</strong> 
           </section>
 
-          <section className="text-center">
+          <section className="Ahorcado">
           <img src={this.props.images[this.state.mistake]} alt=""/>
           </section>
 
-          <section className="text-center">
+          <section className="TextPresentacion">
             
-          <p>Adivina al personaje de videojuego</p>
+          <p><strong>Adivina al personaje de videojuego, haciendo click en las letras</strong></p>
           <p>
             {!gameOver ? this.guessedWord() : this.state.answer}
           </p>
 
           <p>{gameStat}</p>
 
-          <button className='btn btn-info' onClick={this.resetButton}>Reset</button>
+          <button className='btn' onClick={this.resetButton}>Reset</button>
           </section>
 
     </div>

@@ -9,6 +9,12 @@ var personajes = [
     "nathan",
     "kratos",
     "deadpool",
+    "taven",
+    "sora",
+    "aloy",
+    "elizabeth",
+    "mario",
+    "rayman",
 ]
 
 function randomWord() {
