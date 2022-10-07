@@ -4,7 +4,7 @@ import React from 'react';
 function BtnD(){
     return(
         <div>
-            <Link to= "/desarrolladores">Equipo</Link>
+            <Link to= "/desarrolladores">EQUIPO</Link>
         </div>
     );
 
