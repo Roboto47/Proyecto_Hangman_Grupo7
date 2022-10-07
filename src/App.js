@@ -1,4 +1,4 @@
-import './componentes/css/style.css'
+import './componentes/css/Style.css'
 import Home from './componentes/Home';
 import Juego  from './componentes/Juego';
 import Desarrolladores from './componentes/Desarrollador';

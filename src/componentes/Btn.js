@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './css/style.css'
+import './css/Style.css';
 
 
 export default function Btn(){
   return (
     <section className='contenedorbotonhomes'>
  
-    <button className='botoneshome'>
-   
+    <button className='botoneshome'>   
     <CustomLink to="/juego">Jugar</CustomLink>
     </button>
   

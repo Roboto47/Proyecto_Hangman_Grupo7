@@ -1,18 +1,18 @@
 import React from "react";
 import BtnV from "./BtnV.js";
-import './css/style.css'
-import ivan from './img/desarrolladores/ivan.jpeg'
-import eze from './img/desarrolladores/eze.jpeg'
-import caro from './img/desarrolladores/caro.jpeg'
-import henry from './img/desarrolladores/henry.jpeg'
-import vale from './img/desarrolladores/vale.jpeg'
-import mate from './img/mate.png'
-import loguito from './img/loguito.png'
-import logo from './img/logo.png'
-import face from './img/face.png'
-import twitter from './img/twitter.png'
-import discord from './img/discord.png'
-import sogaLogo from './img/sogaLogo.png'
+import './css/Style.css';
+import ivan from './img/desarrolladores/ivan.jpeg';
+import eze from './img/desarrolladores/eze.jpeg';
+import caro from './img/desarrolladores/caro.jpeg';
+import henry from './img/desarrolladores/henry.jpeg';
+import vale from './img/desarrolladores/vale.jpeg';
+import mate from './img/mate.png';
+import loguito from './img/loguito.png';
+import logo from './img/logo.png';
+import face from './img/face.png';
+import twitter from './img/twitter.png';
+import discord from './img/discord.png';
+import sogaLogo from './img/sogaLogo.png';
 
 
 
