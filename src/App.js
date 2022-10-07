@@ -1,7 +1,7 @@
 
 import React, {Fragment} from 'react'
-import Desarrolladores from './Desarrolladores';
 import Home from './Home';
+import Desarrolladores from './Desarrolladores';
 import desarrolladores from './desarrolladores.json'
 import headerDesarrolladores from './headerDesarrolladores';
 import footerDesarrolladores from './footerDesarrolladores';
@@ -40,9 +40,10 @@ function App() {
 
 
     </Fragment>*/
-    <div>
-      <Error/>
-    </div>
+    <Routes>
+      <Route path = '/' element = {<Home/>}/>
+      <Route path = '*' element = {<Error/>}/>
+    </Routes>
   )
 }
 
