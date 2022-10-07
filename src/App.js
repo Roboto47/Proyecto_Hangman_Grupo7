@@ -1,43 +1,24 @@
+import './componentes/css/style.css'
+import Home from './componentes/Home';
+import Juego  from './componentes/Juego';
+import Desarrolladores from './componentes/Desarrollador';
+import { Routes, Route } from "react-router-dom";
 
-
-import Desarrolladores from './Desarrolladores';
-import Home from './Home';
-
-
-
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
-
-  
   return (
-  
-<BrowserRouter>
+    <div>
+      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/juego" element={<Juego />} />
+        <Route path="/desarrolladores" element={<Desarrolladores />} />
+        
 
 
-   <Routes>
-   <Route path='/' element={ <Home/>   }/>
-  
-  <Route path='/desarrolladores' element={    <Desarrolladores/>     }/>
-
-  
-
-
-   </Routes>
-
-
-
-
-
-
-
-</BrowserRouter>
-
-
-
-
-   
-
+      </Routes>
+     
+    </div>
   );
 }
 
