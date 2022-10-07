@@ -5,21 +5,21 @@
     "nombre": "Ezequiel Alejandro Garcia" ,
     "rol":"Programador",
     "dni": " 41.401.187",
-    "lu": "lu1",
+    "lu": "TUV000390",
     "gitLink":"https://github.com/Garuyha",
     "edad":"24",
     "intereses":"Leer libros de fantasía, jugar videojuegos RPG, jugar juegos de rol de mesa y ver películas."
     },
     {
      
-        "img":"",
+        "img":"./img/CaroFoto.png",
         "nombre": "Carolina Maria de los Angeles Cortez" ,
         "rol":"Programadora",
         "dni": "44.812.374",
         "lu": "TUV000415",
         "gitLink":"https://github.com/ChiaroCoure",
         "edad":"19",
-        "intereses":""
+        "intereses":"Jugar, escribir y los gatos."
         },
         { 
             "img":"./img/IvanFoto.png",
@@ -29,7 +29,7 @@
             "lu":" TUV000440",
             "gitLink":"https://github.com/Roboto47",
             "edad":"25",
-            "intereses":"Mirar películas y viciar"
+            "intereses":"Mirar películas y viciar."
             },
             {
                 "img":"./img/HenryFoto.png",
@@ -39,7 +39,7 @@
                 "lu": " TUV000004",
                 "gitLink":"https://github.com/HeNrYx94",
                 "edad":"27",
-                "intereses":"Escribir historias, jugar videojuegos, ver películas y escuchar música de genero rock, metal, instrumental y alguna que otra banda de algún otro genero"
+                "intereses":"Escribir historias, jugar videojuegos, ver películas y escuchar música de genero rock, metal, instrumental y alguna que otra banda de algún otro genero."
                 },
                 {
                     "img":"./img/ValeFoto.png",
