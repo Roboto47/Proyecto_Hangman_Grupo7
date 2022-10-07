@@ -1,19 +1,19 @@
 
 import React from "react";
-import './App.css';
-import avatar from './asset/imagenes/Avatar.png';
-import ivan from './asset/imagenes/ivan.jpeg';
-import eze from './asset/imagenes/eze.jpeg';
-import caro from './asset/imagenes/caro.jpeg';
-import henry from './asset/imagenes/henry.jpeg';
-import vale from './asset/imagenes/vale.jpeg';
-import twitter from './asset/imagenes/twitter.png';
-import face from './asset/imagenes/face.png';
-import discord from './asset/imagenes/discord.png';
-import logo from './asset/imagenes/logo.png';
-import soga from './asset/imagenes/soga.png';
-import mate from './asset/imagenes/mate.png';
-import loguito from './asset/imagenes/loguito.png';
+import './estilos/App.css';
+import avatar from '../asset/imagenes/Avatar.png';
+import ivan from '../asset/imagenes/ivan.jpeg';
+import eze from '../asset/imagenes/eze.jpeg';
+import caro from '../asset/imagenes/caro.jpeg';
+import henry from '../asset/imagenes/henry.jpeg';
+import vale from '../asset/imagenes/vale.jpeg';
+import twitter from '../asset/imagenes/twitter.png';
+import face from '../asset/imagenes/face.png';
+import discord from '../asset/imagenes/discord.png';
+import logo from '../asset/imagenes/logo.png';
+import soga from '../asset/imagenes/soga.png';
+import mate from '../asset/imagenes/mate.png';
+import loguito from '../asset/imagenes/loguito.png';
 
  class Desarrolladores extends React.Component{
 

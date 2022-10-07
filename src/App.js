@@ -1,7 +1,7 @@
 
 
-import Desarrolladores from './Desarrolladores';
-import Home from './Home';
+import Desarrolladores from './componentes/Desarrolladores';
+import Home from './componentes/Home';
 
 
 
