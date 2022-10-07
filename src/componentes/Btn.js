@@ -1,26 +1,20 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './css/style.css'
+import './css/BotonHome.css'
 
 
 export default function Btn(){
   return (
-    <section className='contenedorbotonhomes'>
+    <section>
  
-    <button className='botoneshome'>
-   
-    <CustomLink to="/juego">Jugar</CustomLink>
-    </button>
-  
-   
-      
-    <button className='botoneshome' >
-    <CustomLink to="/desarrolladores">Equipo</CustomLink>
-    </button>
-   
     
+   
+    <CustomLink to="/juego" className="botonHome" >JUGAR</CustomLink>
+
+   <br></br>
+    <CustomLink to="/desarrolladores" className="botonHome">EQUIPO </CustomLink>
     
-  
+
     </section>
   )
 }

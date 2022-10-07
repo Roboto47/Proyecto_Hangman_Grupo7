@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import './css/style.css'
+import './css/BotonVolver.css'
 function BtnV(){
     return(
-        <div className="contenedorbotonvolver">
-        <div className="botonvolver">
-         <Link to= "/">    <p> VOLVER </p>  </Link>
-        </div>
+        <div className="botonVolver">
+         <Link to= "/">  <p> VOLVER </p>  </Link>
         </div>
     );
 
