@@ -34,17 +34,22 @@ body
   padding: 3%;
   font-size: 19;
   color: rgb(10, 10, 10);
-  height: 370px;
-  width: 190px;
-  text-align: left;
+  height: 600px;
+  width: 300px;
+  text-align: center;
   box-shadow: 0 4px 24px 0 rgb(223, 208, 9);
   background-color: rgb(230, 240, 238);
   border-radius: 5%;
   justify-content: center;
+
 }
 
 
-
+.foto{
+  border-radius: 50%;
+  height:200px;
+  width:200px;
+}
 
 
   .redes
@@ -107,8 +112,12 @@ body
     {
      display: flex;
      margin-top: 11%;
-     gap: 164px;
+     gap: 165px;
      justify-content: center;
+   
+     float: left;
+     width: 30%;
+     height: auto;
     }
 
 
