@@ -6,6 +6,7 @@ import discord from './asset/imagenes/discord.png';
 import logo from './asset/imagenes/logo.png';
 import soga from './asset/imagenes/soga.png';
 import mate from './asset/imagenes/mate.png';
+import BtnH from "./componentes/BtnH";
 import loguito from './asset/imagenes/loguito.png';
 
 function footerDesarrolladores(){
@@ -13,7 +14,7 @@ function footerDesarrolladores(){
     return(
         <footer>
         <div className='contenedorboton'>
-         <button class="boton " >  <span>Volver</span>   </button>
+         <BtnH/>
         </div>
 
   <div className="redes">

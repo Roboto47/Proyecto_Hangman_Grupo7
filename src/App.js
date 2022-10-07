@@ -1,8 +1,7 @@
 
 import React, {Fragment} from 'react'
 import Home from './Home';
-import Desarrolladores from './Desarrolladores';
-import desarrolladores from './desarrolladores.json'
+import Desarrollador from './Desarrollador';
 import {Route, Routes } from 'react-router-dom';
 import Error from './componentes/Error404';
 
@@ -37,7 +36,7 @@ function App() {
     </Fragment>*/
     <Routes>
       <Route path = '/' element = {<Home/>}/>
-      <Route path = '/desarrolladores' element = {<Desarrolladores/>}/>
+      <Route path = '/desarrolladores' element = {<Desarrollador/>}/>
       <Route path = '*' element = {<Error/>}/>
     </Routes>
   )
