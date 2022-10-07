@@ -13,7 +13,7 @@ function footerDesarrolladores(){
     return(
         <footer>
         <div className='contenedorboton'>
-        <a href="/">  <button class="boton " >  <span>Volver</span>   </button>  </a>   
+         <button class="boton " >  <span>Volver</span>   </button>
         </div>
 
   <div className="redes">
