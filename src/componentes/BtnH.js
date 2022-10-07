@@ -4,8 +4,8 @@ import './Error.css'
 
 function BtnH(){
     return(
-        <div>
-            <Link to= "/" className="black">REGRESAR</Link>
+        <div className="button">
+            <Link to= "/" className="white">REGRESAR</Link>
         </div>
     );
 

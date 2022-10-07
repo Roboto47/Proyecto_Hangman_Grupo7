@@ -1,37 +1,53 @@
 [
     {
-        "image": "eze.png",
+        "img":"./img/GarcisFoto.png",
         "nombre": "Ezequiel Alejandro Garcia" ,
-        "dni": "DNI: 41.401.187",
-        "intereses":"Intereses: Leer libros de fantasía, vídeo juegos tipo RPG y ver películas.",
-        "lu": "LU: TUV000390"    
+        "rol":"Programador",
+        "dni": " 41.401.187",
+        "lu": "TUV000390",
+        "gitLink":"https://github.com/Garuyha",
+        "edad":"24",
+        "intereses":"Leer libros de fantasía, jugar videojuegos RPG, jugar juegos de rol de mesa y ver películas."
     },
     {
-        "image": "eze.png",
+     
+        "img":"./img/CaroFoto.png",
         "nombre": "Carolina Maria de los Angeles Cortez" ,
-        "dni": "DNI: 44.812.374",
-        "intereses":"Intereses:",
-        "lu": "LU: TUV000415"
+        "rol":"Programadora",
+        "dni": "44.812.374",
+        "lu": "TUV000415",
+        "gitLink":"https://github.com/ChiaroCoure",
+        "edad":"19",
+        "intereses":"Jugar, escribir y los gatos."
     },
-    {
-        "image": "eze.png",
+    { 
+        "img":"./img/IvanFoto.png",
         "nombre": "Héctor Ivan Diaz" ,
-        "dni": "DNI: 37.304.786",
-        "intereses":"Intereses: Mirar películas, viciar",
-        "lu":"LU: TUV000440"
+        "rol":"Programador",
+        "dni": " 37.304.786",
+        "lu":" TUV000440",
+        "gitLink":"https://github.com/Roboto47",
+        "edad":"25",
+        "intereses":"Mirar películas y viciar."
     },
     {
-        "image": "eze.png",
+        "img":"./img/HenryFoto.png",
         "nombre": "Hernan Enrique Arias Mercado",
-        "dni": "DNI: 36.225.750",
-        "intereses":"Intereses: Escribir historias, videojuegos,peliculas y  musica: rock, metal, instrumental y que otra banda de otros generos musicales.",
-        "lu": "LU: TUV000004"
+        "rol":"Programador",
+        "dni": " 36.225.750",
+        "lu": " TUV000004",
+        "gitLink":"https://github.com/HeNrYx94",
+        "edad":"27",
+        "intereses":"Escribir historias, jugar videojuegos, ver películas y escuchar música de genero rock, metal, instrumental y alguna que otra banda de algún otro genero."
     },
     {
-        "image": "eze.png",
+        "img":"./img/ValeFoto.png",
         "nombre": "Valeria Emilia Caballero" ,
-        "dni": "DNI: 43.139.319",
-        "intereses":"Intereses:",
-        "lu": "LU: TUV000055"
+        "rol":"Programadora",
+        "dni": " 43.139.319",
+        "lu": " TUV000055",
+        "gitLink":"https://github.com/ValeriaEmilia000",
+        "edad":"22",
+        "intereses":"Jugar videojuegos diversos, escribir mundos, personajes e historias , aprender cosas nuevas y dibujar mientras escucho música de fondo. "
     }
-]
+    ]
