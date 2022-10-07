@@ -48,12 +48,12 @@ return  <div>
           <section className="informacion"> 
             <img className="foto" alt="imagen" src={this.props.img} width="150"/>
               <h3> <strong> {this.props.nombre}</strong> </h3>
-              <h2> <strong> Programador   </strong>  </h2>
-              <p><strong>  {this.props.dni}</strong> </p>
-              <p><strong>  {this.props.lu} </strong> </p>
-              <p><strong> Usuario de Github: {this.props.gitLink} </strong> </p>
+              <h2> <strong> {this.props.rol}  </strong>  </h2>
+              <p><strong> DNI: </strong>{this.props.dni} </p>
+              <p><strong> LU: </strong> {this.props.lu} </p>
+              <p><strong> Usuario de Github: </strong>  {this.props.gitLink}</p>
               <p><strong> Edad: {this.props.edad} </strong> </p>
-              <p><strong> Intereses: {this.props.intereses} </strong> </p>
+              <p><strong> Intereses:  </strong>{this.props.intereses} </p>
           </section>
 
 

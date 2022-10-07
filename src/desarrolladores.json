@@ -3,7 +3,8 @@
     {
         "img":"./img/GarcisFoto.png",
     "nombre": "Ezequiel Alejandro Garcia" ,
-    "dni": "DNI: 41.401.187",
+    "rol":"Programador",
+    "dni": " 41.401.187",
     "lu": "lu1",
     "gitLink":"https://github.com/Garuyha",
     "edad":"24",
@@ -13,8 +14,9 @@
      
         "img":"",
         "nombre": "Carolina Maria de los Angeles Cortez" ,
-        "dni": "DNI: 44.812.374",
-        "lu": "LU: TUV000415",
+        "rol":"Programadora",
+        "dni": "44.812.374",
+        "lu": "TUV000415",
         "gitLink":"https://github.com/ChiaroCoure",
         "edad":"19",
         "intereses":""
@@ -22,8 +24,9 @@
         { 
             "img":"./img/IvanFoto.png",
             "nombre": "Héctor Ivan Diaz" ,
-            "dni": "DNI: 37.304.786",
-            "lu":"LU: TUV000440",
+            "rol":"Programador",
+            "dni": " 37.304.786",
+            "lu":" TUV000440",
             "gitLink":"https://github.com/Roboto47",
             "edad":"25",
             "intereses":"Mirar películas y viciar"
@@ -31,8 +34,9 @@
             {
                 "img":"./img/HenryFoto.png",
                 "nombre": "Hernan Enrique Arias Mercado",
-                "dni": "DNI: 36.225.750",
-                "lu": "LU: TUV000004",
+                "rol":"Programador",
+                "dni": " 36.225.750",
+                "lu": " TUV000004",
                 "gitLink":"https://github.com/HeNrYx94",
                 "edad":"27",
                 "intereses":"Escribir historias, jugar videojuegos, ver películas y escuchar música de genero rock, metal, instrumental y alguna que otra banda de algún otro genero"
@@ -40,8 +44,9 @@
                 {
                     "img":"./img/ValeFoto.png",
                     "nombre": "Valeria Emilia Caballero" ,
-                    "dni": "DNI: 43.139.319",
-                    "lu": "LU: TUV000055",
+                    "rol":"Programadora",
+                    "dni": " 43.139.319",
+                    "lu": " TUV000055",
                     "gitLink":"https://github.com/ValeriaEmilia000",
                     "edad":"22",
                     "intereses":"Jugar videojuegos diversos, escribir mundos, personajes e historias , aprender cosas nuevas y dibujar mientras escucho música de fondo. "

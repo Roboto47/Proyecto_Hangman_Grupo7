@@ -28,6 +28,7 @@ function App() {
     <Desarrolladores style="display:inline-block;" key={des.nombre}
     img={des.img} 
     nombre={des.nombre}
+    rol={des.rol}
     dni={des.dni}
     lu={des.lu}
     gitLink={des.gitLink}
