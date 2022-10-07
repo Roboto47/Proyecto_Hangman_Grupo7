@@ -1,13 +1,10 @@
 import React from "react";
 import './componentes/App.css';
-import twitter from './asset/imagenes/twitter.png';
-import face from './asset/imagenes/face.png';
-import discord from './asset/imagenes/discord.png';
-import logo from './asset/imagenes/logo.png';
-import soga from './asset/imagenes/soga.png';
-import mate from './asset/imagenes/mate.png';
+import twitter from './componentes/img/twitter.png';
+import face from './componentes/img/face.png';
+import discord from './componentes/img/discord.png';
+import mate from './componentes/img/mate.png';
 import BtnH from "./componentes/BtnH";
-import loguito from './asset/imagenes/loguito.png';
 
 function footerDesarrolladores(){
 

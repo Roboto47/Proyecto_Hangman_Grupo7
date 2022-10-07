@@ -1,13 +1,13 @@
 import React from "react";
-import './css/style.css'
-import logo from './img/logo.png'
+import './componentes/css/style.css'
+import logo from './componentes/img/logo.png'
 import Btn from "./Btn";
-import mate from './img/mate.png';
-import loguito from './img/loguito.png';
-import face from './img/face.png';
-import twitter from './img/twitter.png';
-import discord from './img/discord.png';
-import sogaLogo from './img/sogaLogo.png';
+import mate from './componentes/img/mate.png';
+import loguito from './componentes/img/loguito.png';
+import face from './componentes/img/face.png';
+import twitter from './componentes/img/twitter.png';
+import discord from './componentes/img/discord.png';
+import sogaLogo from './componentes/img/sogaLogo.png';
 
 
 
