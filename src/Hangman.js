@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-import logo from './asset/imagenes/logo.png';
-import soga from './asset/imagenes/soga.png';
-import mate from './asset/imagenes/mate.png';
-import loguito from './asset/imagenes/loguito.png';
+import logo from './img/logo.png';
+import soga from './img/sogaLogo.png';
+import mate from './img/mate.png';
+import loguito from './img/loguito.png';
 
-import step0 from "./asset/imagenes/0.png";
-import step1 from "./asset/imagenes/1.png";
-import step2 from "./asset/imagenes/2.png";
-import step3 from "./asset/imagenes/3.png";
-import step4 from "./asset/imagenes/4.png";
-import step5 from "./asset/imagenes/5.png";
-import step6 from "./asset/imagenes/6.png";
-import { randomWord } from "./components/Word";
+import step0 from "./img/0.png";
+import step1 from "./img/1.png";
+import step2 from "./img/2.png";
+import step3 from "./img/3.png";
+import step4 from "./img/4.png";
+import step5 from "./img/5.png";
+import step6 from "./img/6.png";
+import { randomWord } from "./img/Word";
 
 
 

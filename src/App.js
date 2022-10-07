@@ -2,10 +2,7 @@
 
 import Desarrolladores from './Desarrolladores';
 import Hangman from './Hangman';
-import Home from './Home';
-import desarrolladores from './desarrolladores.json'
-import headerDesarrolladores from './headerDesarrolladores';
-import footerDesarrolladores from './footerDesarrolladores';
+import Home from './componentes/Home.js';
 
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
