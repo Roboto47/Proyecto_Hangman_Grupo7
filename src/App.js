@@ -1,7 +1,4 @@
-
-
-import Desarrolladores from './Desarrolladores';
-import Hangman from './Hangman';
+import Hangman from './Hangman.js';
 import Home from './componentes/Home.js';
 
 
@@ -17,7 +14,6 @@ function App() {
 
    <Routes>
    <Route path='/' element={ <Home/>   }/>
-  <Route path='/desarrolladores' element={    <Desarrolladores/>     }/>
   <Route path='/hangman' element={    <Hangman/>     }/>
 
 
@@ -25,13 +21,6 @@ function App() {
 
 
    </Routes>
-
-
-
-
-
-
-
 </BrowserRouter>
 
 
