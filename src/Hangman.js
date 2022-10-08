@@ -1,18 +1,18 @@
 import React from 'react';
-import logo from './componentes/img/logo.png';
-import soga from './componentes/img/sogaLogo.png';
-import mate from './componentes/img/mate.png';
-import loguito from './componentes/img/loguito.png';
+import logo from './asset/imagenes/logo.png';
+import soga from './asset/imagenes/soga.png';
+import mate from './asset/imagenes/mate.png';
+import loguito from './asset/imagenes/loguito.png';
 
-import step0 from "./componentes/img/0.png";
-import step1 from "./componentes/img/1.png";
-import step2 from "./componentes/img/2.png";
-import step3 from "./componentes/img/3.png";
-import step4 from "./componentes/img/4.png";
-import step5 from "./componentes/img/5.png";
-import step6 from "./componentes/img/6.png";
-import randomWord  from "./componentes/Word.js";
-import BtnH from "./componentes/BtnH";
+import step0 from "./asset/imagenes/0.png";
+import step1 from "./asset/imagenes/1.png";
+import step2 from "./asset/imagenes/2.png";
+import step3 from "./asset/imagenes/3.png";
+import step4 from "./asset/imagenes/4.png";
+import step5 from "./asset/imagenes/5.png";
+import step6 from "./asset/imagenes/6.png";
+import {randomWord} from "./componentes/Word"
+import BtnH from './componentes/BtnH';
 
 
 
@@ -80,37 +80,26 @@ class Hangman extends React.Component{
     }
 
 
-        return <div>
-            <section className="icono">
-            <img  src={mate} alt="" width="70" />
-            <img  src={loguito} alt="" width="300" />
-
-          </section>
-            <section className="logo">
-            <img  src={logo} alt="" width="400" height={150}/>
-            <img  src={soga} alt="" width="45" />
-          </section>
-
-          <section className="CantErrores"><strong>Adivinanzas erróneas: {this.state.mistake} of {this.props.maxWrong}</strong> 
-          </section>
-
+        return <div>      
           <section className="Ahorcado">
           <img src={this.props.images[this.state.mistake]} alt=""/>
           </section>
 
           <section className="TextPresentacion">
             
-          <p><strong>Adivina al personaje de videojuego, haciendo click en las letras</strong></p>
+          <p><strong>Adivina la fruta que salvara al estudiante, haciendo click en las letras</strong></p>
+          <p>Posibles frutas: manzana, naranja, uva, anana, banana, frutilla, kiwi, tomate</p>
           <p>
             {!gameOver ? this.guessedWord() : this.state.answer}
           </p>
 
+          <section className="CantErrores"><strong>Adivinanzas erróneas: {this.state.mistake} of {this.props.maxWrong}</strong> 
+          </section>
           <p>{gameStat}</p>
 
           <button className='btn' onClick={this.resetButton}>Reset</button>
-          </section>
-    <BtnH/>
-
+          </section> 
+          <BtnH/>
     </div>
   
     }

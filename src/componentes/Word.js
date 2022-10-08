@@ -1,20 +1,12 @@
 var personajes = [
-    "arkantos",
-    "dante",
-    "trevor",
-    "subzero",
-    "kirby",
-    "pantheon",
-    "steve",
-    "nathan",
-    "kratos",
-    "deadpool",
-    "taven",
-    "sora",
-    "aloy",
-    "elizabeth",
-    "mario",
-    "rayman",
+    "manzana",
+    "naranja",
+    "uva",
+    "anana",
+    "banana",
+    "frutilla",
+    "kiwi",
+    "tomate",
 ]
 
 function randomWord() {
