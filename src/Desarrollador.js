@@ -63,9 +63,7 @@ function Desarrollador(){
       }) 
     }
 
-    <div className="bruh">
     <BtnH/>
-    </div>
 
     </Fragment>
   )
