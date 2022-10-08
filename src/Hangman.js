@@ -9,6 +9,7 @@ import step5 from "./asset/imagenes/5.png";
 import step6 from "./asset/imagenes/6.png";
 import {randomWord} from "./componentes/Word"
 import BtnH from './componentes/BtnH';
+import './componentes/css/Hangman.css'
 
 
 
