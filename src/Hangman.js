@@ -1,8 +1,4 @@
 import React from 'react';
-import logo from './asset/imagenes/logo.png';
-import soga from './asset/imagenes/soga.png';
-import mate from './asset/imagenes/mate.png';
-import loguito from './asset/imagenes/loguito.png';
 
 import step0 from "./asset/imagenes/0.png";
 import step1 from "./asset/imagenes/1.png";
@@ -13,6 +9,7 @@ import step5 from "./asset/imagenes/5.png";
 import step6 from "./asset/imagenes/6.png";
 import randomWord from "./componentes/Word"
 import BtnH from './componentes/BtnH';
+import './componentes/css/Hangman.css'
 
 
 
@@ -88,7 +85,7 @@ class Hangman extends React.Component{
           <section className="TextPresentacion">
             
           <p><strong>Adivina la fruta que salvara al estudiante, haciendo click en las letras</strong></p>
-          <p>Posibles frutas: manzana, naranja, uva, anana, banana, frutilla, kiwi, tomate</p>
+          <p>Posibles frutas: manzana, naranja, uva, anana, banana, frutilla, kiwi, tomate, arandano, cereza, frambruesa, higo, lima, limon, mandarina, melon, melocoton, piña</p>
           <p>
             {!gameOver ? this.guessedWord() : this.state.answer}
           </p>
