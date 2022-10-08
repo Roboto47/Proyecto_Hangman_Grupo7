@@ -5,7 +5,7 @@ import './Error.css'
 function BtnH(){
     return(
         <div className="button">
-            <Link to= "/" className="white">REGRESAR</Link>
+            <Link to= "/" className="white"> ← REGRESAR</Link>
         </div>
     );
 

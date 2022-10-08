@@ -11,9 +11,9 @@ function Error (){
             <p> 
                 Disculpa, tu página no ha sido encontrada
             </p>
-            <button>
-                <BtnH/>
-            </button>
+            <div className='boton'>
+            <BtnH/>
+            </div>
         </div>
         </div>
     )

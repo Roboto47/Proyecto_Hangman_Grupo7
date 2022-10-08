@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './css/BotonHome.css';
+import './componentes/css/BotonHome.css';
 
 
 export default function Btn(){
