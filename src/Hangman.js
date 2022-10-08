@@ -1,18 +1,18 @@
 import React from 'react';
-import './App.css';
-import logo from './asset/imagenes/logo.png';
-import soga from './asset/imagenes/soga.png';
-import mate from './asset/imagenes/mate.png';
-import loguito from './asset/imagenes/loguito.png';
+import logo from './componentes/img/logo.png';
+import soga from './componentes/img/sogaLogo.png';
+import mate from './componentes/img/mate.png';
+import loguito from './componentes/img/loguito.png';
 
-import step0 from "./asset/imagenes/0.png";
-import step1 from "./asset/imagenes/1.png";
-import step2 from "./asset/imagenes/2.png";
-import step3 from "./asset/imagenes/3.png";
-import step4 from "./asset/imagenes/4.png";
-import step5 from "./asset/imagenes/5.png";
-import step6 from "./asset/imagenes/6.png";
-import Proceso  from "./componentes/Proceso.js";
+import step0 from "./componentes/img/0.png";
+import step1 from "./componentes/img/1.png";
+import step2 from "./componentes/img/2.png";
+import step3 from "./componentes/img/3.png";
+import step4 from "./componentes/img/4.png";
+import step5 from "./componentes/img/5.png";
+import step6 from "./componentes/img/6.png";
+import randomWord  from "./componentes/Word.js";
+import BtnH from "./componentes/BtnH";
 
 
 
@@ -28,7 +28,7 @@ class Hangman extends React.Component{
     this.state = {
       mistake: 0,
       guessed: new Set([]),
-      answer: Proceso()
+      answer: randomWord()
     }
   }
 
@@ -62,7 +62,7 @@ class Hangman extends React.Component{
     this.setState({
       mistake: 0,
       guessed: new Set([]),
-      answer: Proceso()
+      answer: randomWord()
     });
   }
 
@@ -109,6 +109,7 @@ class Hangman extends React.Component{
 
           <button className='btn' onClick={this.resetButton}>Reset</button>
           </section>
+    <BtnH/>
 
     </div>
   
