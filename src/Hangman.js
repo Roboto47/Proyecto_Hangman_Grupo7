@@ -84,7 +84,7 @@ class Hangman extends React.Component{
           <section className="TextPresentacion">
             
           <p><strong>Adivina la fruta que salvara al estudiante, haciendo click en las letras</strong></p>
-          <p>Posibles frutas: manzana, naranja, uva, anana, banana, frutilla, kiwi, tomate</p>
+          <p>Posibles frutas: manzana, naranja, uva, anana, banana, frutilla, kiwi, tomate, arandano, cereza, frambruesa, higo, lima, limon, mandarina, melon, melocoton, piña</p>
           <p>
             {!gameOver ? this.guessedWord() : this.state.answer}
           </p>
