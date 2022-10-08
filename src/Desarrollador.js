@@ -11,10 +11,10 @@ function Desarrollador(){
       {
       desarrolladores.map( desarrollador => {
         return(
-          <div className='box'>
+          <div className='box' key={desarrollador.dni}>
             <div className="contenedor">
 
-              <img src = {desarrollador.img} alt ={desarrollador.nombre} className ="images"/>
+              <img src = {desarrollador.img} alt ={desarrollador.nombre} className ="images" />
 
               <div className="cuerpo">
               <div className="nombre">
