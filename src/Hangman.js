@@ -90,7 +90,8 @@ class Hangman extends React.Component{
 
           <section className="TextPresentacion">
             
-          <p><strong>Adivina al personaje de videojuego, haciendo click en las letras</strong></p>
+          <p><strong>Adivina la fruta que salvara al estudiante, haciendo click en las letras</strong></p>
+          <p>Posibles frutas: manzana, naranja, uvas, anana, banana, frutilla, kiwi, tomate</p>
           <p>
             {!gameOver ? this.guessedWord() : this.state.answer}
           </p>
