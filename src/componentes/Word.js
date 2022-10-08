@@ -15,10 +15,10 @@ var personajes = [
     "elizabeth",
     "mario",
     "rayman",
-]
+  ]
 
-function randomWord() {
-  return personajes[Math.floor(Math.random() * personajes.length)]
-}
-
-export { randomWord }
+  function randomWord() {
+    return personajes[Math.floor(Math.random() * personajes.length)]
+  }
+  
+  export { randomWord }
