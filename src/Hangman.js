@@ -1,8 +1,4 @@
 import React from 'react';
-import logo from './asset/imagenes/logo.png';
-import soga from './asset/imagenes/soga.png';
-import mate from './asset/imagenes/mate.png';
-import loguito from './asset/imagenes/loguito.png';
 
 import step0 from "./asset/imagenes/0.png";
 import step1 from "./asset/imagenes/1.png";
