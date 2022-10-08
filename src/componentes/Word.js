@@ -7,6 +7,16 @@ var personajes = [
     "frutilla",
     "kiwi",
     "tomate",
+    "arandano",
+    "cereza",
+    "frambruesa",
+    "higo",
+    "lima",
+    "limon",
+    "mandarina",
+    "melon",
+    "melocoton",
+    "piña",
 ]
 
 function randomWord() {
