@@ -11,7 +11,7 @@ import step3 from "./asset/imagenes/3.png";
 import step4 from "./asset/imagenes/4.png";
 import step5 from "./asset/imagenes/5.png";
 import step6 from "./asset/imagenes/6.png";
-import {randomWord} from "./componentes/Word"
+import randomWord from "./componentes/Word"
 import BtnH from './componentes/BtnH';
 
 
