@@ -10,6 +10,7 @@ export default function Btn(){
     
    
     <CustomLink to="/juego" className="botonHome" >JUGAR</CustomLink>
+    <br></br>
     <CustomLink to="/desarrolladores" className="botonHome">EQUIPO </CustomLink>
     
 
