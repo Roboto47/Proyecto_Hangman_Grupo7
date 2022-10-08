@@ -1,7 +1,7 @@
 import React from "react";
-import './componentes/css/style.css'
+import './componentes/css/Style.css'
 import logo from './componentes/img/logo.png'
-import Btn from "./Btn";
+import Btn from "./componentes/Btn";
 import mate from './componentes/img/mate.png';
 import loguito from './componentes/img/loguito.png';
 import face from './componentes/img/face.png';
