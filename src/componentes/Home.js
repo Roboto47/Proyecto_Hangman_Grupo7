@@ -4,10 +4,10 @@ import logo from './img/logo.png'
 import Btn from "./Btn";
 import mate from './img/mate.png';
 import loguito from './img/loguito.png';
-import face from './img/face.png'
-import twitter from './img/twitter.png'
-import discord from './img/discord.png'
-import sogaLogo from './img/sogaLogo.png'
+import face from './img/face.png';
+import twitter from './img/twitter.png';
+import discord from './img/discord.png';
+import sogaLogo from './img/sogaLogo.png';
 
 
 
@@ -17,16 +17,19 @@ import sogaLogo from './img/sogaLogo.png'
 
 
     return ( <div>
+      
 
-<section className="icono">
+        <div >
+            <div>
+            <section className="icono">
 <img  src={mate} alt="" width="70" />
   <img  src={loguito} alt="" width="300" />
   </section>
-        <div >
-            <div>
             <section className="logohome">
+         
     <img  src={logo} alt="" width="500" height={190}/>
     <img  src={sogaLogo} alt="" width="45" /> 
+    
     </section>
             <section className="botones">
                 <Btn/>
@@ -56,3 +59,5 @@ import sogaLogo from './img/sogaLogo.png'
     )
 }
 export default Home;
+
+

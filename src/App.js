@@ -1,4 +1,4 @@
-import './componentes/css/style.css'
+import './componentes/css/style.css';
 import Home from './componentes/Home';
 import Juego  from './componentes/Juego';
 import Desarrolladores from './componentes/Desarrollador';
@@ -13,9 +13,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/juego" element={<Juego />} />
         <Route path="/desarrolladores" element={<Desarrolladores />} />
-        
-
-
       </Routes>
      
     </div>

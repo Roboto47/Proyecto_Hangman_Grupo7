@@ -1,18 +1,18 @@
 
 .icono
-{  
-    margin-top: -1%;
-    margin-bottom: 5%;
-    margin-left: 2%;
+{
 
+
+margin-left: 1%;
 }
+
 
 
 body
 {
 
  background-image: linear-gradient(  135deg   ,#692d92 ,#1d76b1,#88acb1,#7277b6,#5fa2ad ,#3c802f ,#80462f,#80422f);
- margin-top: 3.5%;
+ margin-top: 2%;
  margin-bottom: 4%;
  animation: fanimado 25s infinite;
  background-size: 500%;
@@ -34,11 +34,6 @@ body
 }
 
 }
-
-
-
-  
-
 
     .derechos
    {

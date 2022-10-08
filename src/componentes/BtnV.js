@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import './css/BotonVolver.css'
+import './css/BotonVolver.css';
 function BtnV(){
     return(
         <div className="botonVolver">
